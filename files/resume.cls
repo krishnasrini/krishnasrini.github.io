@@ -42,7 +42,7 @@
 \def \name#1{\def\@name{#1}} % Defines the \name command to set name
 \def \@name {} % Sets \@name to empty by default
 
-\def \addressSep {$\diamond$} % Set default address separator to a diamond
+\def \addressSep {\newline \hfill } % Set default address separator to a diamond
 
 % One, two or three address lines can be specified
 \let \@addressone \relax
@@ -64,17 +64,18 @@
 % \printaddress is used to style an address line (given as input)
 \def \printaddress #1{
   \begingroup
-    \def \\ {\addressSep\ }
-    \centerline{#1}
+    \def \\  {\addressSep }
+    \hfill{#1}
   \endgroup
   \par
   \addressskip
 }
 
+
 % \printname is used to print the name as a page header
 \def \printname {
   \begingroup
-    \hfil{\MakeUppercase{\namesize\bf \@name}}\hfil
+    \hfill{\MakeUppercase{\namesize\bf \@name}}\hfil
     \nameskip\break
   \endgroup
 }
@@ -102,8 +103,8 @@
 % Defines the rSection environment for the large sections within the CV
 \newenvironment{rSection}[1]{ % 1 input argument - section name
   \sectionskip
-  \MakeUppercase{\bf #1} % Section title
-  \sectionlineskip
+  \underline{\bf #1} % Section title
+  % \sectionlineskip
   % \hrule
 % \rule{0.5\textwidth}{.4pt} % Horizontal line
   \begin{list}{}{ % List for each individual item in the section
@@ -133,7 +134,7 @@
 %$\cdot$ was in the above line
 
 % The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
-\def\namesize{\LARGE} % Size of the name at the top of the document
+\def\namesize{\normalsize} % Size of the name at the top of the document
 \def\addressskip{\smallskip} % The space between the two address (or phone/email) lines
 \def\sectionlineskip{\smallskip} % The space above the horizontal line for each section
 \def\nameskip{\smallskip} % The space after your name at the top
