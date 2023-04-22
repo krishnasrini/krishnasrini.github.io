@@ -58,7 +58,6 @@ a small {
 }
 
 .wrapper2 {
-  /* width:860px; */
   max-width: 650px;
   width: 100%;
   margin:0 auto;
@@ -175,17 +174,17 @@ header ul a strong {
   color:#222;
 }
 
-section {
+/* section {
   width:500px;
   float:right;
   padding-bottom:50px;
-}
+} */
 
-section2 {
-  max-width:500px;
+section {
+  max-width: 500px;
   width: 100%;
-  float:right;
   padding-bottom:50px;
+  float: right;
 }
 
 small {
@@ -207,6 +206,7 @@ footer {
 }
 
 @media print, screen and (max-width: 960px) {
+/* used to be 960px   */
 
   div.wrapper {
     width:auto;
@@ -222,7 +222,8 @@ footer {
   header, section, footer {
     float:none;
     position:static;
-    width:auto;
+    /* width:auto; */
+    width: 100%;
   }
 
   header {
@@ -230,13 +231,23 @@ footer {
     /* padding-right: 200px; */
   }
 
-  section {
+  /* section {
     border:1px solid #e5e5e5;
     border-width:1px 0;
     padding:20px 0;
     padding-left: 0px;
-    margin:0 0 20px -50px;
+    margin:0 5px 0px 20px;
+    width: 100%;
     /* margin-left: -20px; */
+  } */
+
+  section {
+    border: 1px solid #e5e5e5;
+    border-width: 1px 0;
+    padding: 20px 0;
+    padding-left: 0px;
+    margin: 0;
+    width: 100%;
   }
 
   header a small {
