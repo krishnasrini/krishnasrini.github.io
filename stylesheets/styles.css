@@ -80,6 +80,7 @@ code, pre {
 
 pre {
   padding:8px 15px;
+  /* padding: 1% 2%; */
   background: #f8f8f8;
   border-radius:5px;
   border:1px solid #e5e5e5;
@@ -279,10 +280,11 @@ footer {
   }
 }
 
-@media print, screen and (max-width: 480px) {
+@media print, screen and (max-width: 620px) {
   body {
     /* padding:15px; */
     padding: 2%;
+    margin: 0;
   }
 
   header ul {
