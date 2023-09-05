@@ -22,14 +22,16 @@
 
 \documentclass{resume} % Use the custom resume.cls style
 %\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
-\usepackage[left=0.6in,top=0.6in,right=0.6in,bottom=0.6in]{geometry}
+\usepackage[left=0.8in,top=0.6in,right=0.8in,bottom=0.6in]{geometry}
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \usepackage{fancyhdr}
  \pagestyle{fancy}
  \usepackage{eurosym}
  \usepackage{eurosym}
-
+ \usepackage{array}
+ \usepackage{changepage}
+ 
  \renewcommand{\headrulewidth}{0pt}
 
 
@@ -39,69 +41,79 @@
 % \address{\href{krishna.srinivasan@econ.uzh.ch}{krishna.srinivasan@econ.uzh.ch}} 
 \begin{document}
 
-\begin{flushright}
-  \textbf{\MakeUppercase{krishna srinivasan}} \\
-  \href{https://www.krishnasrini.com}{https://krishnasrini.com} \\
-  \href{krishna.srinivasan@econ.uzh.ch}{krishna.srinivasan@econ.uzh.ch}   
-\end{flushright}
+% \begin{flushright}
+%   \textbf{\MakeUppercase{krishna srinivasan}} \\
+%   \href{https://www.krishnasrini.com}{https://krishnasrini.com} \\
+%   \href{krishna.srinivasan@econ.uzh.ch}{krishna.srinivasan@econ.uzh.ch}   
+% \end{flushright}
 
 \begin{center}
-  \textbf{\MakeUppercase{university of zurich}}
+  \textbf{\MakeUppercase{Krishna Srinivasan}}
 \end{center}
 
 % \hrule
-\begin{rSection}{Office Contact Information}
-  \begin{tabular}{ @{} >{}l @{\hspace{13ex}} l }
-    University of Zurich \\
-    Bluemlisalpstrasse 10 \\
+\begin{rSection}{Contact Information}
+  \begin{tabular}{ @{} >{}l @{\hspace{15ex}} l }
+    University of Zurich &   \href{https://www.krishnasrini.com}{https://krishnasrini.com} \\
+    Bluemlisalpstrasse 10 &   \href{krishna.srinivasan@econ.uzh.ch}{krishna.srinivasan@econ.uzh.ch}   \\
     8006 Zurich, Switzerland\\
   \end{tabular}
 \end{rSection}
- 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{rSection}{Previous Studies}
-  M.Sc. Econometrics and Mathematical Economics, Tilburg University, 2017  \\
-  B.Sc. Economics, Mathematics, Statistics, Christ University, 2016 
+\begin{rSection}{Education}
+  \begin{tabular}{ @{} p{0.8\linewidth} >{\raggedleft\arraybackslash}p{0.2\linewidth} }
+  Ph.D. Economics, University of Zurich  &  08/2018 - present \\
+  Expected Completion Date: 04/2024 \\
+  M.Sc. Econometrics and Mathematical Economics, Tilburg University & 2016 - 2017  \\
+  B.Sc. Economics, Mathematics, Statistics, Christ University & 2013 - 2016 
+  \end{tabular}
 \end{rSection}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{rSection}{Graduate Studies}
-  University of Zurich, Ph.D. Economics, 2018 to present \\
-  \underline{Expected Completion Date}: July 2024  
-\end{rSection}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{rSection}{Short Research Stays}
-Norwegian School of Economics, Aug 2022 - Jan 2023 \\
-University of California - Berkeley, Aug 2021 - Dec 2021
+\begin{rSection}{Research Visits} 
+  \begin{tabular}{ @{} p{0.8\linewidth} >{\raggedleft\arraybackslash}p{0.2\linewidth} }
+  Visiting Student, Norwegian School of Economics & 08/2022 - 01/2023  \\
+  Visiting Student, University of California - Berkeley &  08/2021 - 12/2021
+  \end{tabular}
 \end{rSection}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{rSection}{Research and Teaching Fields}
   Primary fields: Behavioral Economics, Public economics \\
-  Secondary fields: Political Economy
+  Secondary fields: Experimental Economics, Political Economy
 \end{rSection}
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{rSection}{Job Market Paper}
-  \textbf{``Who Should Get Money? Estimating Welfare Weights in the U.S.,”} with Francesco Capozza
+  % \begin{tabular}{p{15cm}}
+    ``Who Should Get Money? Estimating Welfare Weights in the U.S." (with Francesco Capozza) 
+
+    Evaluating the desirability of a reform involves weighing the gains of the winners against the losses of the losers using welfare weights. Welfare weights measure the value society places on providing an additional dollar of consumption to individuals. Which welfare weights should be used to evaluate policies? We take a positive approach to answer this question by identifying the welfare weights assigned by the general population of the U.S. using a real-stakes experiment. These weights are general enough to capture various ideals, such as equality of opportunity or poverty alleviation, and can be directly used to evaluate Social Architects' assessment of the desirability of reforms. We find that the average welfare weights of the general population are progressive, indicating a desire for additional redistribution beyond that achieved by the current tax and transfer system. The general population weights are more progressive than the weights implied by the tax and transfer policies in the U.S. but less progressive than the weights frequently used in the optimal policy literature.
+    % \end{tabular}
 \end{rSection}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{rSection}{Research Paper(s) in Progress}
 
-  \textbf{``Who Deserves a Tax Break and Why? Evidence on Preferences for Taxing Personal Characteristics,"} with Julien Senn
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{rSection}{Work in Progress}
+  ``Who Deserves a Tax Break and Why? Evidence on
+  Preferences for Taxing Personal Characteristics” (with Julien Senn) 
+
+  ``What Motivates Censorship?” (with Francesco Capozza)
 \end{rSection}
+
+\newpage 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{rSection}{Research Grants}
-  
-  \begin{tabular}{ @{} >{}l @{\hspace{11.5ex}} l }
-    2023 & UZH GRC Short Grant (with Julien Senn) - CHF 5000 \\
-    2022 & UZH URPP Equality of Opportunity Grant (with Francesco Capozza) - CHF 8680 \\
-    2018 & Russel Sage Foundation Small Grants (with Francesco Capozza) - \$7850\\
-    2021 & UZH Director's Grant (with Francesco Capozza) - CHF 1500 \\
+  \begin{tabular}{ @{} p{0.9\linewidth} >{\raggedleft\arraybackslash}p{0.1\linewidth} }
+
+  UZH GRC Short Grant (with Julien Senn) - CHF 5000 & 2023 \\
+  UZH URPP Equality of Opportunity Grant (with Francesco Capozza) - CHF 8680 & 2022 \\
+  Russel Sage Foundation Small Grants (with Francesco Capozza) - \$7850 & 2018\\
+  UZH Director's Grant (with Francesco Capozza) - CHF 1500 & 2021 
   \end{tabular}
 \end{rSection}
 
@@ -110,51 +122,72 @@ University of California - Berkeley, Aug 2021 - Dec 2021
   Refereeing: Journal of Public Economics
 \end{rSection}
 
-\newpage 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{rSection}{Presentations}
-  \begin{tabular}{ @{} >{}l @{\hspace{5ex}} p{16cm} }
-    2023 & EEA-ESEM conference (upcoming), Annual Congress of the IIPF (upcoming), Ramaiah University of Applied Sciences, Ludwig Erhard ifo Conference on Institutional Economics,  Young Swiss Economist Meeting \\ 
-    2022 & BREW-ESA,  Spring School in Behavioral Economics (Poster),  Fairness and the Moral Mind Workshop, In\_equality Conference (University of Konstanz) \\ 
-  \end{tabular}
-\end{rSection}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{rSection}{Workshops and Summer Schools}
-  \begin{tabular}{ @{} >{}l @{\hspace{5ex}} p{16cm} }
-    2023 & briq Summer School in Behavioral Economics,\\
-    2022 & Spring School in Behavioral Economics, HCEO-FAIR Summer School on Socioeconomic Inequality \\
-  \end{tabular}
-\end{rSection}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{rSection}{Teaching Experience}
   \textbf{Teaching Assistant at University of Zurich} 
 
-\begin{tabular}{ @{} >{}l @{\hspace{5ex}} l }
-  2022 & Behavioral Public Economics (master's) \\
-  % & Teaching assistant to Prof. Sandro Amb\"{u}hl \\
-  2021 & Behavioral Economics (bachelor's) \\
-  % & Teaching assistant to Prof. Bj\"{o}rn Bartling \\  
-  2020, 2021 & Introduction to Behavioral Economics (master's)\\
-  % & Teaching assistant to Prof. Roberto Weber \\
-  2020  & The Economics of Paternalism (master's)\\
-  % & Teaching assistant to Prof. Bj\"{o}rn Bartling \\  
-  2019, 2020  & Behavioral Theory (master's)\\
-  % & Teaching assistant to Prof. Jakub Steiner \\
-\end{tabular}
-
-\end{rSection}
-
-
+    \begin{tabular}{ @{} p{0.8\linewidth} >{\raggedleft\arraybackslash}p{0.2\linewidth} }
+    Behavioral Public Economics (master's) & 2022 \\
+    Behavioral Economics (bachelor's) & 2021 \\
+    Introduction to Behavioral Economics (master's) & 2020, 2021 \\
+    The Economics of Paternalism (master's) & 2020 \\
+    Behavioral Theory (master's) & 2019, 2020 
+    \end{tabular}
+  \end{rSection}
+  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{rSection}{Scholarships:}
-   
-  \begin{tabular}{ @{} >{}l @{\hspace{4.5ex}} l }
-  2022 & UZH Doc.Mobility \\
-  2018 - 2024 & Departmental scholarship for Ph.D. students \\
+  \begin{tabular}{ @{} p{0.8\linewidth} >{\raggedleft\arraybackslash}p{0.2\linewidth} }
+  UZH Doc.Mobility &  2022\\
+  Departmental scholarship for Ph.D. students & 2018 - 2024
   \end{tabular}
 \end{rSection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{rSection}{Presentations}
+  \begin{tabular}{ @{} p{0.9\linewidth} >{\raggedleft\arraybackslash}p{0.1\linewidth} }
+    EEA Conference, Annual Congress of the IIPF, Ramaiah University of Applied Sciences, Ludwig Erhard ifo Conference on Institutional Economics,  Young Swiss Economist Meeting & 2023 \\ 
+
+    BREW-ESA,  Spring School in Behavioral Economics (Poster), Fairness and the Moral Mind Workshop, In\_equality Conference &   2022   
+  \end{tabular}
+\end{rSection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent
+\begin{rSection}{Summer Schools}
+  \begin{tabular}{ @{} p{0.9\linewidth}>{\raggedleft\arraybackslash}p{0.1\linewidth} }
+    briq Summer School in Behavioral Economics, & 2023 \\
+    Spring School in Behavioral Economics, HCEO-FAIR Summer School on Socioeconomic Inequality & 2022  
+  \end{tabular}
+\end{rSection}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{rSection}{References}
+
+\begin{tabular}{ @{} >{}l @{\hspace{13ex}} l }
+
+Björn Bartling  & Ernst Fehr  \\
+University of Zurich & University of Zurich \\  \vspace*{0.3cm}
+bjoern.bartling@econ.uzh.ch & ernst.fehr@econ.uzh.ch\\
+
+Michel Marechal & Bertil Tungodden \\ 
+University of Zurich & Norwegian School of Economics \\
+michel.marechal@econ.uzh.ch & bertil.tungodden@nhh.no \\
+\end{tabular}
+\end{rSection}
+
+
+\begin{rSection}{Placement Director} 
+\begin{tabular}{ @{} >{}l @{\hspace{13ex}} l }
+  Joachim Voth \\
+  University of Zurich \\
+  voth@econ.uzh.ch
+\end{tabular}  
+\end{rSection}
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
