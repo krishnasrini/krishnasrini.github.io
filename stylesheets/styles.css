@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,400,400i,700,700i);
 
 body {
-  /* padding:50px; */
+  padding:50px;
   font:14px/1.5 "IBM Plex Sans", sans-serif;
   color:#000;
   font-weight:400;
@@ -186,6 +186,7 @@ section {
   max-width: 500px;
   width: 100%;
   padding-bottom:50px;
+  padding-top: 0px;
   float: right;
 }
 
@@ -219,6 +220,10 @@ footer {
   div.wrapper2 {
     width:auto;
     margin:0;
+    flex: 100%;
+    width: 100%;
+    margin-left: 1px;
+    margin-right: 1px;
   }
 
   header, section, footer {
@@ -230,7 +235,6 @@ footer {
 
   header {
     padding-right:320px;
-    /* padding-right: 200px; */
   }
 
   /* section {
@@ -271,6 +275,15 @@ footer {
     padding:0;
   }
 
+  div.wrapper2 {
+    width:auto;
+    margin:0;
+    flex: 100%;
+    width: 100%;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+
   header ul, header p.view {
     position:static;
   }
@@ -283,9 +296,17 @@ footer {
 @media print, screen and (max-width: 620px) {
   body {
     word-wrap:break-word;
-    /* padding:15px; */
     padding: 10px;
     margin: 0;
+  }
+
+  div.wrapper2 {
+    width:auto;
+    margin:0;
+    flex: 100%;
+    width: 100%;
+    margin-left: 1px;
+    margin-right: 1px;
   }
 
   header ul {
@@ -295,7 +316,6 @@ footer {
 
 @media print {
   body {
-    padding: 1%;
     font-size:12pt;
     color:#444;
   }
