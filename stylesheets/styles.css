@@ -219,11 +219,11 @@ footer {
 
   div.wrapper2 {
     width:auto;
-    margin:0;
+    /* margin:0; */
     flex: 100%;
     width: 100%;
-    margin-left: 1px;
-    margin-right: 1px;
+    margin-left: 3px;
+    margin-right: 3px;
   }
 
   header, section, footer {
