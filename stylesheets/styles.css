@@ -211,6 +211,11 @@ footer {
 @media print, screen and (max-width: 960px) {
 /* used to be 960px   */
 
+  body {
+    word-wrap:break-word;
+    padding: 10px 20px; /* Increase the padding for mobile devices */
+  }
+
   div.wrapper {
     width:auto;
     margin:0;
@@ -269,6 +274,7 @@ footer {
 @media print, screen and (max-width: 720px) {
   body {
     word-wrap:break-word;
+    padding: 10px 20px; /* Increase the padding for mobile devices */
   }
 
   header {
@@ -296,7 +302,7 @@ footer {
 @media print, screen and (max-width: 620px) {
   body {
     word-wrap:break-word;
-    padding: 10px;
+    padding: 10px 20px; /* Increase the padding for mobile devices */
     margin: 0;
   }
 
