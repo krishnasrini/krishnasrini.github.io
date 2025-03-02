@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.7.21)  19 FEB 2025 15:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.7.21)  2 MAR 2025 07:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -255,14 +255,14 @@ Package hyperref Info: Link coloring ON on input line 37.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(46.25275pt, 497.05263pt, 54.2025pt)
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
 * v-part:(T,H,B)=(65.04256pt, 714.96173pt, 65.04256pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=497.05263pt
+* \textwidth=452.9679pt
 * \textheight=714.96173pt
-* \oddsidemargin=-26.01724pt
-* \evensidemargin=-26.01724pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
 * \topmargin=-44.22743pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -293,27 +293,27 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 62.
 
-Overfull \hbox (8.38539pt too wide) in paragraph at lines 63--66
+Overfull \hbox (8.93869pt too wide) in paragraph at lines 63--67
 [][] 
  []
 
 
-Overfull \hbox (8.38539pt too wide) in paragraph at lines 71--76
+Overfull \hbox (8.93869pt too wide) in paragraph at lines 72--77
 [][] 
  []
 
 
-Overfull \hbox (8.38538pt too wide) in paragraph at lines 81--87
+Overfull \hbox (8.93869pt too wide) in paragraph at lines 82--90
 [][] 
  []
 
 
-Overfull \hbox (8.3927pt too wide) in paragraph at lines 119--126
-[][] 
+Underfull \hbox (badness 1609) in paragraph at lines 127--127
+[]|\OT1/cmr/m/n/10.95 UZH URPP `Equal-ity of Op-por-tu-nity' Project Grant (with Francesco
  []
 
 
-Overfull \hbox (8.38539pt too wide) in paragraph at lines 130--134
+Overfull \hbox (8.9456pt too wide) in paragraph at lines 124--131
 [][] 
  []
 
@@ -327,12 +327,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [1
 
 {C:/Users/krish/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (8.38539pt too wide) in paragraph at lines 148--155
+Overfull \hbox (8.93869pt too wide) in paragraph at lines 137--141
 [][] 
  []
 
 
-Overfull \hbox (8.38539pt too wide) in paragraph at lines 158--161
+Overfull \hbox (8.93869pt too wide) in paragraph at lines 154--161
+[][] 
+ []
+
+
+Overfull \hbox (8.93869pt too wide) in paragraph at lines 164--167
 [][] 
  []
 
@@ -354,13 +359,13 @@ Package rerunfilecheck Info: File `CV_srinivasan.out' has not changed.
 Here is how much of TeX's memory you used:
  9417 strings out of 474486
  149291 string characters out of 5743755
- 1944542 words of memory out of 5000000
+ 1943542 words of memory out of 5000000
  31606 multiletter control sequences out of 15000+600000
  561810 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,11n,81p,811b,439s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\krish\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/krish/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/krish/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on CV_srinivasan.pdf (2 pages, 53191 bytes).
+Output written on CV_srinivasan.pdf (2 pages, 53494 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
