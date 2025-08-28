@@ -19,6 +19,10 @@ p, ul, ol, table, pre, dl {
   text-align: left;
 }
 
+.mild-bold {
+  font-weight: 550; /* mid-way between regular (400) and bold (700) */
+}
+
 h1, h2, h3 {
   line-height:1.1;
 }
@@ -157,7 +161,7 @@ header ul a {
 
 strong {
   color:#222;
-  font-weight:700;
+  font-weight:400;
 }
 
 header ul li + li {
