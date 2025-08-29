@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight:400;
 }
 .emphasis {
-  font-weight: 500;   /* or 600, depending on the font */
+  font-weight: 600;   /* or 600, depending on the font */
   color: #222;
 }
 
