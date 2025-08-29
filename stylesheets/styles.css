@@ -12,6 +12,10 @@ h1, h2, h3, h4, h5, h6 {
   margin:0 0 20px;
   font-weight:400;
 }
+.emphasis {
+  font-weight: 500;   /* or 600, depending on the font */
+  color: #222;
+}
 
 p, ul, ol, table, pre, dl {
   color:#000;
