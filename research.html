@@ -20,6 +20,53 @@
       ga('create', 'UA-65546321-1', 'auto');
       ga('send', 'pageview');
     </script>
+    <style>
+      .paper-abstract {
+        margin-top: 0;
+      }
+
+      .paper-abstract-toggle {
+        background: transparent;
+        border: 0;
+        padding: 0;
+        font: inherit;
+        text-align: left;
+        cursor: pointer;
+        font-size: 0.92em;
+        font-weight: 700;
+        color: #6a737d;
+        width: auto;
+      }
+
+      .paper-abstract-toggle::before {
+        content: "+";
+        display: inline-block;
+        width: 14px;
+        margin-right: 4px;
+      }
+
+      .paper-abstract.is-open .paper-abstract-toggle::before {
+        content: "-";
+      }
+
+      .abstract-content {
+        overflow: hidden;
+        max-height: 0;
+        opacity: 0;
+        transition: max-height 240ms ease, opacity 180ms ease;
+      }
+
+      .paper-abstract.is-open .abstract-content {
+        opacity: 1;
+      }
+
+      .abstract-content p {
+        margin: 6px 0 0 0;
+        font-size: 0.95em;
+        color: #4a4a4a;
+        line-height: 1.55;
+      }
+    </style>
   </head>
   <body>
     <div class="wrapper2">
@@ -32,63 +79,126 @@
         <!-- comment -->
         </h3>
       </nav>
+
       <h2>Publications </h2>
-      <p>
-         <span class="emphasis"> Fair (P)redistribution </span> 
-        (with <a href = "https://justinvalasek.com/" target="_blank" > Justin Valasek </a> and 
+      <p class="paper-entry" data-abstract="To address rising income inequality, governments typically rely on two levers: predistribution policies that implement inequality reduction before incomes are earned—e.g., minimum-wage laws—and redistribution policies that implement inequality reduction after incomes are earned—e.g., taxes and transfers. We explore whether support for reducing inequality depends on the choice of policy lever. Using incentivized experiments with the general population of the US and Sweden (𝑁 =2510), we study inequality reduction under predistribution and redistribution, focusing on whether inequality reduction is implemented before or after income is earned. We find that timing matters: subjects in both countries reduce inequality more under predistribution than redistribution. Furthermore, subjects in the predistribution treatment more often invoke equal effort to justify reducing inequality, while those in the redistribution treatment more often invoke adherence to the initial agreement to justify preserving it. Overall, our results imply that the choice between predistribution and redistribution can influence public support for reducing inequality.">
+        <span class="emphasis"> Fairness perceptions of redistribution and predistribution </span>
+        (with <a href = "https://justinvalasek.com/" target="_blank" > Justin Valasek </a> and
               <a href = "https://www.weijia-wang.com/" target="_blank" > Weijia Wang </a>) <br>
-        Accepted <span class="emphasis">Journal of Public Economics</span> <br>
-        <a href="https://dx.doi.org/10.2139/ssrn.6464018" target="_blank">Paper</a>
+        <span class="emphasis">Journal of Public Economics</span>, 2026, 262, 105752.
+        <a href="https://doi.org/10.1016/j.jpubeco.2026.105752" target="_blank">Paper</a>
       </p>
       <!-- comment -->
       <h2>Working Papers </h2>
-      <p>
+      <p class="paper-entry" data-abstract="This paper investigates the determinants of individuals’ demand for and supply of paternalistic interventions. Based on data from an incentivized experiment conducted with a large US sample, we find that both demand and supply are higher for informational interventions than for those that restrict choice, and that demand is higher when targeted individuals have consent rights. Moreover, we find that demand and supply are higher when targeted individuals perceive themselves, or are perceived, as more error-prone. These behavioral patterns suggest that both receiving and supplying interventions entail utility costs, particularly when interventions infringe on autonomy—an interpretation supported by participants’ free-text responses. Our findings inform managerial practice and policy design more broadly by showing that autonomy-preserving features, such as maintaining choice and granting consent rights, can increase support for paternalistic interventions in employer–employee relationships and beyond.">
         <span class="emphasis"> Paternalism: Determinants of Demand and Supply </span>
         (with <a href = "https://www.econ.uzh.ch/en/people/faculty/bartling.html" target="_blank" > Björn Bartling </a>) <br>
         Revise and Resubmit at <span class="emphasis">Management Science</span> <br>
         <a href="https://dx.doi.org/10.2139/ssrn.5251097" target="_blank">Paper</a>
       </p>
-      <p>
+      <p class="paper-entry" data-abstract="Evaluating the desirability of a reform typically involves weighing the gains of winners against the losses of losers using welfare weights, which measure the value that society places on a $1 increase in an individual’s consumption. These weights can capture various normative ideals such as utilitarianism and equality of opportunity.
+We develop a portable experimental method to elicit welfare weights and apply it to samples of the U.S. general population. We assess the robustness of the elicited weights to response quality and design features, validate them using measures of support for redistribution, and document their temporal stability. The aggregate welfare weights are progressive: under a constant-elasticity specification, the income elasticity of welfare weights lies between −0.85 and −0.71. These weights are roughly 8–9 times as
+progressive as the weights implied by the U.S. tax schedule and 4–5 times as progressive
+as those implied by U.S. tax and transfer policies.">
         <span class="emphasis">Who Should Get Money? Estimating Welfare Weights in the U.S.</span>
         (with <a href = "https://sites.google.com/view/francescocapozza" target="_blank" >Francesco Capozza</a>)
         <br>
-        Awards:  Distinguished CESifo affiliate award for best paper in Public Economics 2024
+        Awards: Distinguished CESifo affiliate award for best paper in Public Economics 2024
         <br>
         <a href="https://www.krishnasrini.com/papers/welfare_weights.pdf" target="_blank">Paper</a>
       </p>
-      <p>
+      <p class="paper-entry" data-abstract="Research and development (R&D) is thought to be an important determinant of improvements in living standards, health, and economic security. Yet, U.S. government spending on R&D has fallen over time, with further cuts proposed. Two standard rationalizations for such cuts are: (i) citizens support cuts, and (ii) the marginal social return from R&D is low. We test these using surveys with U.S. citizens and experts. Our evidence rejects both: most citizens favor increasing R&D, and most experts judge marginal social returns to be high. Experts underestimate public support, indicating that they misperceive the political feasibility of increasing R&D spending.">
         <span class="emphasis">Science by Consensus: Eliciting Citizens' and Experts' R&D Spending Priorities </span>
-         (with <a href = "https://sites.google.com/view/francescocapozza" target="_blank" >Francesco Capozza</a> and 
-         <a href = "https://www.mattietoma.com/" target="_blank" >Mattie Toma</a>) <br>
-        <a href="https://dx.doi.org/10.2139/ssrn.5352530" target="_blank">Paper</a> &nbsp; 
+        (with <a href = "https://sites.google.com/view/francescocapozza" target="_blank" >Francesco Capozza</a> and
+              <a href = "https://www.mattietoma.com/" target="_blank" >Mattie Toma</a>) <br>
+        <a href="https://dx.doi.org/10.2139/ssrn.5352530" target="_blank">Paper</a> &nbsp;
         <a href="https://warwick.ac.uk/fac/soc/wbs/subjects/bsci/research/policymakers-lab/scienceconsensus_summary.pdf" target="_blank">Policy brief</a>&nbsp;
         <a href="https://www.macroscience.org/p/americans-want-more-science-funding" target="_blank">Macroscience blog post</a>
-      </p> 
-
-      <p>
-      <span class="emphasis"> Preferences for Taxing Personal Characteristics </span>
-      (with  <a href = "https://sites.google.com/site/juliensenn" target="_blank" >Julien Senn</a>) <br> Email for draft    
       </p>
-    <h2>Selected Work in Progress</h2>
-    <p>
-      <span class="emphasis">Optimal Pigouvian Taxes with Altruism</span>
-         (with <a href = "https://sites.google.com/view/williamdodds" target="_blank"> William Dodds</a>) <br>
-    </p>
-   <p>
-      <span class="emphasis">Eliciting Welfare Weights Based on Socio-Economic Characteristics</span>
-         (with <a href = "https://sites.google.com/view/katybergstrom/home" target="_blank"> Katy Bergstrom </a>, 
-               <a href = "https://sites.google.com/view/francescocapozza" target="_blank"> Francesco Capozza </a>, 
-               <a href = "https://sites.google.com/view/williamdodds" target="_blank"> William Dodds</a>, and
-               <a href = "https://sites.google.com/view/juan-rios/home" target="_blank"> Juan Rios</a>) <br>
-    </p>
-    <!-- <p>
-      <span class="emphasis">Understanding Administrative Burden: A Field Experiment on the Hassle Costs of Tax Filing in Germany</span>
-         (with <a href = "https://unidistance.ch/en/profile/manuel-grieder" target="_blank"> Manuel Grieder</a>, 
-         <a href = "https://sites.google.com/view/emanuelhansen" target="_blank"> Emanuel Hansen</a>, and 
-         <a href = "https://www.kurschilgen.com/" target="_blank" >Michael Kurschilgen</a>) <br>
-    </p> -->
-  </div>
 
-	<script src="javascripts/scale.fix.js"></script>
-	</body>
+      <p class="paper-entry" data-abstract="While tagging—the conditioning of taxes on personal characteristics correlated with
+earning ability—can improve efficiency, it is often assumed to lack political support because it violates horizontal equity, which stipulates treating equals equally. To empirically test this view, we conducted an online vignette experiment with a U.S. general population sample (N = 3,012) and report three results that challenge it. First, support for tagging varies substantially across tags and individuals. Consistent with theoretical prescriptions, it is higher for characteristics with a strong correlation with ability or reflecting needs. However, the immutability of a tag does not predict support, contrary to theory. Second, variation in support reflects both horizontal and vertical equity concerns. Third, other considerations, such as efficiency, also matter but less
+so. Incorporating fairness can either limit or amplify optimal tagging relative to a canonical utilitarian benchmark. Finally, we compare our results with the tags used in the U.S. tax code and those discussed in the literature.">
+        <span class="emphasis"> Preferences for Taxing Personal Characteristics </span>
+        (with <a href = "https://sites.google.com/site/juliensenn" target="_blank" >Julien Senn</a>) <br> Email for draft
+      </p>
+
+      <h2>Selected Work in Progress</h2>
+      <p>
+        <span class="emphasis">Optimal Pigouvian Taxes with Altruism</span>
+        (with <a href = "https://sites.google.com/view/williamdodds" target="_blank"> William Dodds</a>) <br>
+      </p>
+      <p>
+        <span class="emphasis">Eliciting Welfare Weights Based on Socio-Economic Characteristics</span>
+        (with <a href = "https://sites.google.com/view/katybergstrom/home" target="_blank"> Katy Bergstrom </a>,
+              <a href = "https://sites.google.com/view/francescocapozza" target="_blank"> Francesco Capozza </a>,
+              <a href = "https://sites.google.com/view/williamdodds" target="_blank"> William Dodds</a>, and
+              <a href = "https://sites.google.com/view/juan-rios/home" target="_blank"> Juan Rios</a>) <br>
+      </p>
+      <!-- <p>
+        <span class="emphasis">Understanding Administrative Burden: A Field Experiment on the Hassle Costs of Tax Filing in Germany</span>
+        (with <a href = "https://unidistance.ch/en/profile/manuel-grieder" target="_blank"> Manuel Grieder</a>,
+              <a href = "https://sites.google.com/view/emanuelhansen" target="_blank"> Emanuel Hansen</a>, and
+              <a href = "https://www.kurschilgen.com/" target="_blank" >Michael Kurschilgen</a>) <br>
+      </p> -->
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var entries = document.querySelectorAll('.paper-entry');
+
+        entries.forEach(function (entry) {
+          var wrapper = document.createElement('div');
+          wrapper.className = 'paper-abstract';
+
+          var toggle = document.createElement('button');
+          toggle.type = 'button';
+          toggle.className = 'paper-abstract-toggle';
+          toggle.textContent = 'Abstract';
+          toggle.setAttribute('aria-expanded', 'false');
+
+          var content = document.createElement('div');
+          content.className = 'abstract-content';
+
+          var abstractText = (entry.dataset.abstract || '').trim();
+
+          var text = document.createElement('p');
+          text.textContent = abstractText;
+
+          content.appendChild(text);
+          wrapper.appendChild(toggle);
+          wrapper.appendChild(content);
+          entry.appendChild(wrapper);
+
+          toggle.addEventListener('click', function () {
+            var isOpen = wrapper.classList.contains('is-open');
+
+            if (isOpen) {
+              content.style.maxHeight = content.scrollHeight + 'px';
+              requestAnimationFrame(function () {
+                wrapper.classList.remove('is-open');
+                toggle.setAttribute('aria-expanded', 'false');
+                content.style.maxHeight = '0px';
+              });
+              return;
+            }
+
+            wrapper.classList.add('is-open');
+            toggle.setAttribute('aria-expanded', 'true');
+            content.style.maxHeight = content.scrollHeight + 'px';
+          });
+
+          content.addEventListener('transitionend', function (event) {
+            if (event.propertyName !== 'max-height') {
+              return;
+            }
+            if (wrapper.classList.contains('is-open')) {
+              content.style.maxHeight = 'none';
+            }
+          });
+        });
+      });
+    </script>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
 </html>
